@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.card {
+  max-width: 263px;
+  height: 370px;
+  background-color: #3DC47E;
+  border-radius: 10px;
+}
+
+.card .first-img {
+  width: 156px;
+  height: 156px;
+  margin: 30px 52px 19px 55px;
+  background-color: #D0F7C6;
+  border-radius: 50%;
+}
+
+.card span {
+  display: block;
+  text-align: center;
+  color:#D0F7C6;
+  font-size: 12px;
+}
+
+.card p {
+  color: #fff;
+  text-align: center;
+  padding: 10px 25px 10px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: .5px;
+  line-height: 25px;
+}
+
+.card .second-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 22px;
+  margin-left: 121px;
+}
